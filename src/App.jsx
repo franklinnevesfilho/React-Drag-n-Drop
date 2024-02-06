@@ -1,9 +1,9 @@
 import './App.css'
 import {Route, Routes} from "react-router-dom";
 import Home from "./components/home.jsx";
-import DndLibrary from "./components/dndLibrary.jsx";
+import DndLibrary from "./components/dnd-library/dndLibrary.jsx";
 import NativeDnd from "./components/nativeDnd.jsx";
-import DndActivity from "./components/DndActivity.jsx";
+import DndActivity from "./components/dnd-library/DndActivity.jsx";
 import NativeActivity from "./components/NativeActivity.jsx";
 
 function App() {
